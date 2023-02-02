@@ -23,4 +23,4 @@ Execute the file by using this command.
 sudo python3 wifi.py
 ```
 
-For any querys [H,Fantome](hackingghost2002@gmail.com)
+### For any querys hackingghost2002@gmail.com
