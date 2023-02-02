@@ -61,7 +61,7 @@ def ip(interface):
     elif n == 3:
         try:
             subprocess.call (["sudo", "macchanger", interface, "-r"])
-            print(Fore.GREEN + "[+] Success: Macchanger changed")
+            print(Fore.GREEN + "[+] Success: Mac-address changed")
         except Exception:
             print(Fore.RED + "[-] Error") 
     else:
