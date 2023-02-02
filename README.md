@@ -1,11 +1,26 @@
 # wifi-interface-mode-changer
 
+## This script helps to change the Monitor/Managed Mode and the mac-address of the wifi interface..
+
+Make sure you have python3 and macchanger in your linux.
+
+If not means, use this code for download these thing.
+
+```
+sudo apt-get install python3
+sudo apt-get install macchanger
+```
+
 First thing, You need to do download the Python file form the repository.
 
-Make sure you have python3 in your linux.
+Change the "wifi.py" into an executable file. By using this code.
+```
+sudo chmod +x wifi.py
+```
 
-Change the "wifi.py" into an executable file. By using the code "sudo chmod +x wifi.py".
+Execute the file by using this command.
+```
+sudo python3 wifi.py
+```
 
-run the file by using the command "python3 wifi.py".
-
-for any querys hackingghost2002@gmail.com
+For any querys [H,Fantome](hackingghost2002@gmail.com)
