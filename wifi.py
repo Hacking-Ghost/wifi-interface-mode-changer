@@ -60,7 +60,11 @@ def ip(interface):
             print(Fore.RED + "[-] Error: Failed to change the interface to monitor mode")
     elif n == 3:
         try:
+            subprocess.call (["sudo", "ifconfig", interface, "down"])
+            time.sleep(2)
             subprocess.call (["sudo", "macchanger", interface, "-r"])
+            time.sleep(2)
+            subprocess.call (["sudo", "ifconfig", interface, "up"])
             print(Fore.GREEN + "[+] Success: Mac-address changed")
         except Exception:
             print(Fore.RED + "[-] Error") 
