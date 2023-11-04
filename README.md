@@ -3,7 +3,7 @@
 ## This script helps to change the Monitor/Managed Mode and the mac-address of the wifi interface..
 
 ### Requirements 
-Make sure you have `python3`,`macchanger` and `iwconfig` in your linux.
+Make sure you have `python3``macchanger` and `iwconfig` in your linux.
 
 If not means, use this code to download these things.
 
